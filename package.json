@@ -1,0 +1,19 @@
+{
+  "name": "104-restserver",
+  "version": "1.0.0",
+  "description": "Rest server curso de node",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "author": "Marco Antonio Gonzalez Castelan",
+    "start": "nodemon app.js"
+  },
+  "author": "Marco Antonio Gonzalez Castelan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
